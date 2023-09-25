@@ -8,6 +8,9 @@ Install SparkFun_TB6612.h library in your Arduino IDE
 ![image](https://github.com/djsmanchanda/Line-Follower-Robot/assets/68808848/8c97ac30-4f76-47ce-afe9-9000ec3fb803)
 Cells represent values given by QTR sensor, blank(blue) cells means that those values aren't considered in the test case, the cases are if - elseif cases.
 
-Please Calibrate the Kp Kd values thoroughly for optimal results, it took us over 5 hours of continuous changes for us to find the optimal values for our design, hopefully you will require less time, use a buck module in between the battery and motordriver, otherwise drop in battery will lead to variance between consecutive runs.
+##Advice
+Please Calibrate the Kp Kd values thoroughly for optimal results, it took us over 5 hours of continuous changes for us to find the optimal values for our design, hopefully you will require less time.
+Use a buck module in between the battery and motordriver, otherwise drop in battery will lead to variance between consecutive runs.
+Print a customised track on a large poster, with 90 degree turns, obtuse angles, straight lines and curved semi circles(don't make it too tight) and dashes, and keep cleaning the track as dust can influence the sensor readings 
 
 ## Best of Luck
